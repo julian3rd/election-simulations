@@ -1,0 +1,826 @@
+Classifier results for Obama net money
+Predictors:  ['pctDollars', 'pop_density.scale'] 
+
+Accuracy:  0.921568627451 
+
+Confusion matrix
+[[21  3]
+ [ 1 26]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.928571428571 
+
+Precision score:  0.896551724138 
+
+Recall score:  0.962962962963 
+
+             precision    recall  f1-score   support
+
+          0       0.95      0.88      0.91        24
+          1       0.90      0.96      0.93        27
+
+avg / total       0.92      0.92      0.92        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'economic_region_num'] 
+
+Accuracy:  0.901960784314 
+
+Confusion matrix
+[[22  2]
+ [ 3 24]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.905660377358 
+
+Precision score:  0.923076923077 
+
+Recall score:  0.888888888889 
+
+             precision    recall  f1-score   support
+
+          0       0.88      0.92      0.90        24
+          1       0.92      0.89      0.91        27
+
+avg / total       0.90      0.90      0.90        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'census_region_num'] 
+
+Accuracy:  0.725490196078 
+
+Confusion matrix
+[[12 12]
+ [ 2 25]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.78125 
+
+Precision score:  0.675675675676 
+
+Recall score:  0.925925925926 
+
+             precision    recall  f1-score   support
+
+          0       0.86      0.50      0.63        24
+          1       0.68      0.93      0.78        27
+
+avg / total       0.76      0.73      0.71        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num'] 
+
+Accuracy:  0.862745098039 
+
+Confusion matrix
+[[22  2]
+ [ 5 22]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.862745098039 
+
+Precision score:  0.916666666667 
+
+Recall score:  0.814814814815 
+
+             precision    recall  f1-score   support
+
+          0       0.81      0.92      0.86        24
+          1       0.92      0.81      0.86        27
+
+avg / total       0.87      0.86      0.86        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num'] 
+
+Accuracy:  0.882352941176 
+
+Confusion matrix
+[[20  4]
+ [ 2 25]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.892857142857 
+
+Precision score:  0.862068965517 
+
+Recall score:  0.925925925926 
+
+             precision    recall  f1-score   support
+
+          0       0.91      0.83      0.87        24
+          1       0.86      0.93      0.89        27
+
+avg / total       0.88      0.88      0.88        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'sex_ratio.scale'] 
+
+Accuracy:  0.843137254902 
+
+Confusion matrix
+[[22  2]
+ [ 6 21]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.84 
+
+Precision score:  0.913043478261 
+
+Recall score:  0.777777777778 
+
+             precision    recall  f1-score   support
+
+          0       0.79      0.92      0.85        24
+          1       0.91      0.78      0.84        27
+
+avg / total       0.85      0.84      0.84        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'sex_ratio.scale'] 
+
+Accuracy:  0.901960784314 
+
+Confusion matrix
+[[21  3]
+ [ 2 25]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.909090909091 
+
+Precision score:  0.892857142857 
+
+Recall score:  0.925925925926 
+
+             precision    recall  f1-score   support
+
+          0       0.91      0.88      0.89        24
+          1       0.89      0.93      0.91        27
+
+avg / total       0.90      0.90      0.90        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'sex_ratio.scale', 'under_18_count.scale'] 
+
+Accuracy:  0.843137254902 
+
+Confusion matrix
+[[22  2]
+ [ 6 21]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.84 
+
+Precision score:  0.913043478261 
+
+Recall score:  0.777777777778 
+
+             precision    recall  f1-score   support
+
+          0       0.79      0.92      0.85        24
+          1       0.91      0.78      0.84        27
+
+avg / total       0.85      0.84      0.84        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'sex_ratio.scale', 'under_18_count.scale'] 
+
+Accuracy:  0.921568627451 
+
+Confusion matrix
+[[21  3]
+ [ 1 26]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.928571428571 
+
+Precision score:  0.896551724138 
+
+Recall score:  0.962962962963 
+
+             precision    recall  f1-score   support
+
+          0       0.95      0.88      0.91        24
+          1       0.90      0.96      0.93        27
+
+avg / total       0.92      0.92      0.92        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'sex_ratio.scale', 'under_18_count.scale', 'forty_five_to_sixty_four_count.scale'] 
+
+Accuracy:  0.843137254902 
+
+Confusion matrix
+[[22  2]
+ [ 6 21]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.84 
+
+Precision score:  0.913043478261 
+
+Recall score:  0.777777777778 
+
+             precision    recall  f1-score   support
+
+          0       0.79      0.92      0.85        24
+          1       0.91      0.78      0.84        27
+
+avg / total       0.85      0.84      0.84        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'sex_ratio.scale', 'under_18_count.scale', 'forty_five_to_sixty_four_count.scale'] 
+
+Accuracy:  0.882352941176 
+
+Confusion matrix
+[[21  3]
+ [ 3 24]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.888888888889 
+
+Precision score:  0.888888888889 
+
+Recall score:  0.888888888889 
+
+             precision    recall  f1-score   support
+
+          0       0.88      0.88      0.88        24
+          1       0.89      0.89      0.89        27
+
+avg / total       0.88      0.88      0.88        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'sex_ratio.scale', 'under_18_count.scale', 'forty_five_to_sixty_four_count.scale', 'sixty_five_over_count.scale'] 
+
+Accuracy:  0.843137254902 
+
+Confusion matrix
+[[22  2]
+ [ 6 21]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.84 
+
+Precision score:  0.913043478261 
+
+Recall score:  0.777777777778 
+
+             precision    recall  f1-score   support
+
+          0       0.79      0.92      0.85        24
+          1       0.91      0.78      0.84        27
+
+avg / total       0.85      0.84      0.84        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'sex_ratio.scale', 'under_18_count.scale', 'forty_five_to_sixty_four_count.scale', 'sixty_five_over_count.scale'] 
+
+Accuracy:  0.882352941176 
+
+Confusion matrix
+[[21  3]
+ [ 3 24]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.888888888889 
+
+Precision score:  0.888888888889 
+
+Recall score:  0.888888888889 
+
+             precision    recall  f1-score   support
+
+          0       0.88      0.88      0.88        24
+          1       0.89      0.89      0.89        27
+
+avg / total       0.88      0.88      0.88        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'median_age.scale', 'sex_ratio.scale'] 
+
+Accuracy:  0.823529411765 
+
+Confusion matrix
+[[22  2]
+ [ 7 20]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.816326530612 
+
+Precision score:  0.909090909091 
+
+Recall score:  0.740740740741 
+
+             precision    recall  f1-score   support
+
+          0       0.76      0.92      0.83        24
+          1       0.91      0.74      0.82        27
+
+avg / total       0.84      0.82      0.82        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'median_age.scale', 'sex_ratio.scale'] 
+
+Accuracy:  0.843137254902 
+
+Confusion matrix
+[[19  5]
+ [ 3 24]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.857142857143 
+
+Precision score:  0.827586206897 
+
+Recall score:  0.888888888889 
+
+             precision    recall  f1-score   support
+
+          0       0.86      0.79      0.83        24
+          1       0.83      0.89      0.86        27
+
+avg / total       0.84      0.84      0.84        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'total_households.scale'] 
+
+Accuracy:  0.843137254902 
+
+Confusion matrix
+[[22  2]
+ [ 6 21]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.84 
+
+Precision score:  0.913043478261 
+
+Recall score:  0.777777777778 
+
+             precision    recall  f1-score   support
+
+          0       0.79      0.92      0.85        24
+          1       0.91      0.78      0.84        27
+
+avg / total       0.85      0.84      0.84        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'total_households.scale'] 
+
+Accuracy:  0.901960784314 
+
+Confusion matrix
+[[21  3]
+ [ 2 25]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.909090909091 
+
+Precision score:  0.892857142857 
+
+Recall score:  0.925925925926 
+
+             precision    recall  f1-score   support
+
+          0       0.91      0.88      0.89        24
+          1       0.89      0.93      0.91        27
+
+avg / total       0.90      0.90      0.90        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'husband_wife_household.scale'] 
+
+Accuracy:  0.843137254902 
+
+Confusion matrix
+[[22  2]
+ [ 6 21]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.84 
+
+Precision score:  0.913043478261 
+
+Recall score:  0.777777777778 
+
+             precision    recall  f1-score   support
+
+          0       0.79      0.92      0.85        24
+          1       0.91      0.78      0.84        27
+
+avg / total       0.85      0.84      0.84        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'husband_wife_household.scale'] 
+
+Accuracy:  0.882352941176 
+
+Confusion matrix
+[[21  3]
+ [ 3 24]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.888888888889 
+
+Precision score:  0.888888888889 
+
+Recall score:  0.888888888889 
+
+             precision    recall  f1-score   support
+
+          0       0.88      0.88      0.88        24
+          1       0.89      0.89      0.89        27
+
+avg / total       0.88      0.88      0.88        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'husband_wife_child_under_18.scale'] 
+
+Accuracy:  0.862745098039 
+
+Confusion matrix
+[[22  2]
+ [ 5 22]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.862745098039 
+
+Precision score:  0.916666666667 
+
+Recall score:  0.814814814815 
+
+             precision    recall  f1-score   support
+
+          0       0.81      0.92      0.86        24
+          1       0.92      0.81      0.86        27
+
+avg / total       0.87      0.86      0.86        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'husband_wife_child_under_18.scale'] 
+
+Accuracy:  0.901960784314 
+
+Confusion matrix
+[[21  3]
+ [ 2 25]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.909090909091 
+
+Precision score:  0.892857142857 
+
+Recall score:  0.925925925926 
+
+             precision    recall  f1-score   support
+
+          0       0.91      0.88      0.89        24
+          1       0.89      0.93      0.91        27
+
+avg / total       0.90      0.90      0.90        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'female_household.scale'] 
+
+Accuracy:  0.882352941176 
+
+Confusion matrix
+[[22  2]
+ [ 4 23]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.884615384615 
+
+Precision score:  0.92 
+
+Recall score:  0.851851851852 
+
+             precision    recall  f1-score   support
+
+          0       0.85      0.92      0.88        24
+          1       0.92      0.85      0.88        27
+
+avg / total       0.89      0.88      0.88        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'female_household.scale'] 
+
+Accuracy:  0.803921568627 
+
+Confusion matrix
+[[17  7]
+ [ 3 24]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.827586206897 
+
+Precision score:  0.774193548387 
+
+Recall score:  0.888888888889 
+
+             precision    recall  f1-score   support
+
+          0       0.85      0.71      0.77        24
+          1       0.77      0.89      0.83        27
+
+avg / total       0.81      0.80      0.80        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'female_child_under_18.scale'] 
+
+Accuracy:  0.862745098039 
+
+Confusion matrix
+[[19  5]
+ [ 2 25]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.877192982456 
+
+Precision score:  0.833333333333 
+
+Recall score:  0.925925925926 
+
+             precision    recall  f1-score   support
+
+          0       0.90      0.79      0.84        24
+          1       0.83      0.93      0.88        27
+
+avg / total       0.87      0.86      0.86        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'female_child_under_18.scale'] 
+
+Accuracy:  0.745098039216 
+
+Confusion matrix
+[[14 10]
+ [ 3 24]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.786885245902 
+
+Precision score:  0.705882352941 
+
+Recall score:  0.888888888889 
+
+             precision    recall  f1-score   support
+
+          0       0.82      0.58      0.68        24
+          1       0.71      0.89      0.79        27
+
+avg / total       0.76      0.75      0.74        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'male_household.scale'] 
+
+Accuracy:  0.843137254902 
+
+Confusion matrix
+[[22  2]
+ [ 6 21]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.84 
+
+Precision score:  0.913043478261 
+
+Recall score:  0.777777777778 
+
+             precision    recall  f1-score   support
+
+          0       0.79      0.92      0.85        24
+          1       0.91      0.78      0.84        27
+
+avg / total       0.85      0.84      0.84        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'male_household.scale'] 
+
+Accuracy:  0.901960784314 
+
+Confusion matrix
+[[21  3]
+ [ 2 25]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.909090909091 
+
+Precision score:  0.892857142857 
+
+Recall score:  0.925925925926 
+
+             precision    recall  f1-score   support
+
+          0       0.91      0.88      0.89        24
+          1       0.89      0.93      0.91        27
+
+avg / total       0.90      0.90      0.90        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'male_child_under_18.scale'] 
+
+Accuracy:  0.843137254902 
+
+Confusion matrix
+[[22  2]
+ [ 6 21]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.84 
+
+Precision score:  0.913043478261 
+
+Recall score:  0.777777777778 
+
+             precision    recall  f1-score   support
+
+          0       0.79      0.92      0.85        24
+          1       0.91      0.78      0.84        27
+
+avg / total       0.85      0.84      0.84        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'male_child_under_18.scale'] 
+
+Accuracy:  0.901960784314 
+
+Confusion matrix
+[[21  3]
+ [ 2 25]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.909090909091 
+
+Precision score:  0.892857142857 
+
+Recall score:  0.925925925926 
+
+             precision    recall  f1-score   support
+
+          0       0.91      0.88      0.89        24
+          1       0.89      0.93      0.91        27
+
+avg / total       0.90      0.90      0.90        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'one_person_nonfamily.scale', 'one_person_sixty_five_older.scale', 'one_person_at_least_two.scale'] 
+
+Accuracy:  0.901960784314 
+
+Confusion matrix
+[[22  2]
+ [ 3 24]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.905660377358 
+
+Precision score:  0.923076923077 
+
+Recall score:  0.888888888889 
+
+             precision    recall  f1-score   support
+
+          0       0.88      0.92      0.90        24
+          1       0.92      0.89      0.91        27
+
+avg / total       0.90      0.90      0.90        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'one_person_nonfamily.scale', 'one_person_sixty_five_older.scale', 'one_person_at_least_two.scale'] 
+
+Accuracy:  0.823529411765 
+
+Confusion matrix
+[[15  9]
+ [ 0 27]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.857142857143 
+
+Precision score:  0.75 
+
+Recall score:  1.0 
+
+             precision    recall  f1-score   support
+
+          0       1.00      0.62      0.77        24
+          1       0.75      1.00      0.86        27
+
+avg / total       0.87      0.82      0.82        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'economic_region_num', 'husband_wife_household.scale', 'female_household.scale', 'male_household.scale', 'one_person_nonfamily.scale', 'one_person_sixty_five_older.scale', 'one_person_at_least_two.scale'] 
+
+Accuracy:  0.862745098039 
+
+Confusion matrix
+[[21  3]
+ [ 4 23]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.867924528302 
+
+Precision score:  0.884615384615 
+
+Recall score:  0.851851851852 
+
+             precision    recall  f1-score   support
+
+          0       0.84      0.88      0.86        24
+          1       0.88      0.85      0.87        27
+
+avg / total       0.86      0.86      0.86        51
+
+
+-----------------------------------------------------------------------------
+Predictors:  ['pctDollars', 'pop_density.scale', 'census_region_num', 'husband_wife_household.scale', 'female_household.scale', 'male_household.scale', 'one_person_nonfamily.scale', 'one_person_sixty_five_older.scale', 'one_person_at_least_two.scale'] 
+
+Accuracy:  0.78431372549 
+
+Confusion matrix
+[[13 11]
+ [ 0 27]] 
+
+row = expected, col = predicted 
+
+F1 score:  0.830769230769 
+
+Precision score:  0.710526315789 
+
+Recall score:  1.0 
+
+             precision    recall  f1-score   support
+
+          0       1.00      0.54      0.70        24
+          1       0.71      1.00      0.83        27
+
+avg / total       0.85      0.78      0.77        51
+
+
+-----------------------------------------------------------------------------
