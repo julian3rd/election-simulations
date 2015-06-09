@@ -61,4 +61,4 @@ target/
 .Rapp.history
 
 # RStudio files
-.Rproj.user/
+.Rproj.user/*
