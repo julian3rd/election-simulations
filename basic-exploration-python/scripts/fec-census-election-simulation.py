@@ -85,7 +85,7 @@ def simulate_election(model, n_sim, column):
     # electoral college votes
     for row, state in zip(xrange(prob_matrix.shape[0]), xrange(model.shape[0])):
         vote_matrix[row, :] = \
-          np.where(prob_matrix[row, :] >= 0.5, model.ix[state, 'Votes'], 0)
+          np.where(prob_matrix[row, :] == 1, model.ix[state, 'Votes'], 0)
         
     return prob_matrix, vote_matrix
 
