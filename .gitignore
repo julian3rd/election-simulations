@@ -62,8 +62,12 @@ target/
 
 # RStudio files
 <<<<<<< HEAD
+<<<<<<< HEAD
 .Rproj.user/
 .Rproj.user
+=======
+.Rproj.user/*
+>>>>>>> origin/master
 =======
 .Rproj.user/*
 >>>>>>> origin/master
