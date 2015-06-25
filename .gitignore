@@ -61,4 +61,9 @@ target/
 .Rapp.history
 
 # RStudio files
+<<<<<<< HEAD
 .Rproj.user/
+.Rproj.user
+=======
+.Rproj.user/*
+>>>>>>> origin/master
